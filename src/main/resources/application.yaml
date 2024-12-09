@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Notiefy-notification
+
+server:
+  port: 8082
+
+rabbitmq:
+  song-added:
+    queue: songAdded
+  song-played:
+    queue: songPlayed
